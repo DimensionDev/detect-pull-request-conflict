@@ -1,0 +1,8 @@
+name: Detect Pull Request Conflict
+url: https://github.com/DimensionDev/detect-pull-request-conflict
+public: true
+default_events:
+  - issues
+default_permissions:
+  issues: write
+  metadata: read
